@@ -82,11 +82,20 @@ Hero
 	padding: 50px 0px;
 			/*top right bottom left*/
 	height: 300px;
-	background-image: url("../img/swirl_pattern.png");
+	/*background-image: url("../img/swirl_pattern.png");*/
+  background-image: url("../img/picluster.jpeg");
+}
+
+.hero-panel a {
+  color: #00a;
+}
+.hero-panel a:hover {
+  text-decoration: underline;
 }
 
 .hero-panel h5 {
-  color: #dd0000;
+  color: #a10;
+  font-weight: 500;
 }
 
 .hero-panel h6 {
