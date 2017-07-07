@@ -107,6 +107,8 @@ Main
 ************** */
 .main-content {
 	padding: 40px 0px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .content-one {
@@ -120,6 +122,13 @@ Main
 .uni-logo {
   padding: 15px;
   width: 170px;
+}
+
+.twitter-container {
+  float: right;
+  border: solid 1px #ccc;
+  width: 250px;
+  margin-left: 20px;
 }
 
 /*************
@@ -180,3 +189,5 @@ Media Query
 		width: 100%;
 	}
 }
+
+
