@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FR&amp;micro;IT Testbed</title>
+    <link>/</link>
+    <description>Recent content on FR&amp;micro;IT Testbed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/main/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/main/</guid>
+      <description>The Project   Massive aggregation of low-cost, low-power, commodity infrastructure can form an efficient and effective compute fabric for key distributed applications. 
+ The introduction of ubiquitous low-cost, low-power compute devices, e.g. in the Internet of Things (IoT) is fundamentally changing the computational landscape. Although we already see the benefits provided by special purpose IoT devices, the true capability is only realised when we can re-purpose large numbers of distributed devices as part of a much larger federated service.</description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Partners</title>
+      <link>/partners/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/partners/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Team</title>
+      <link>/theteam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/theteam/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
