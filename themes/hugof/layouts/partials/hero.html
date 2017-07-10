@@ -2,14 +2,13 @@
 
 <section class="hero-panel">
 	<div class="wrapper">
-    <h1>FR&micro;IT</h1>
-    <h4>The Federated RaspberryPi Micro-Infrastructure Testbed</h4>
-    <h5>10,000 RaspberryPi, the largest Pi cluster in the world!</h5>
-    <h6>Want to test your app on our testbed? Please <a href="mailto:webmaster@fruit-testbed.org">contact us</a></h6>
-    <h6>Want to contribute? Please visit <a href="http://picycle.org">PiCycle</a> or <a href="/join">join</a> your cluster with ours</h6>
-      
-		<!--h1>{{ .Site.Params.hero.herotitle }}</h1>
-		<p>{{ .Site.Params.hero.herodiscription }}</p>
+    <h1>{{ safeHTML .Site.Params.hero.herotitle }}</h1>
+    <h4>{{ safeHTML .Site.Params.hero.herodescription }}</h4>
+    <h5>{{ safeHTML .Site.Params.hero.heroremark1 }}</h5>
+    <h6>{{ safeHTML .Site.Params.hero.heroremark2 }}</h6>
+    <h6>{{ safeHTML .Site.Params.hero.heroremark3 }}</h6>
+
+		<!--p>{{ .Site.Params.hero.herodiscription }}</p>
 		<a href="" class="button primary">{{ .Site.Params.hero.btnblue }}</a>
 		<a href="" class="button success">{{ .Site.Params.hero.btngreen }}</a-->
 	</div>

@@ -5,9 +5,20 @@
 	</head>
 
 	<body>
-	        {{ partial "header.html" . }}
 
-					{{ partial "main.html" . }}
+    {{ partial "header.html" . }}
+						
+					<!-- Add your own content here -->
+					<section class="main-content">
+						<div class="wrapper row">
+							<div class="small-12 medium-12 column content-one">
+
+								<h1>{{ .Title }}</h1>
+                <hr>
+                
+							</div>
+						</div>
+					</section>
 							
 					{{ partial "footer.html" . }}
 				</div> {{ "<!-- End page content menu wrapper -->" | safeHTML }}

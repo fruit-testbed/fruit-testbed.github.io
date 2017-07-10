@@ -1,0 +1,29 @@
+<div class="off-canvas-wrapper"> {{ "<!-- Definition of global off canvas wrapper -->" | safeHTML }}
+		<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>	{{ "<!-- Definition of inner off canvas wrapper -->" | safeHTML }}
+				
+		{{ "<!-- Menu -->" | safeHTML }}
+		<div class="off-canvas position-left" id="mobile-menu" data-off-canvas>
+      			<ul>
+				{{ $currentNode := . }}
+				{{ range .Site.Menus.main }}
+        				<li><a class="nav-item{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name}}</a></li>
+				{{end}}
+      			</ul>
+		</div>	
+					
+		{{ "<!-- Page Content -->" | safeHTML }}
+ 		<div class="off-canvas-content" data-off-canvas-content>
+					
+		{{ "<!-- Foundation Mobile Menu -->" | safeHTML }}
+					
+		<div class="titlebar show-for-small-only">
+			<div class="title-bar left">
+			<button class="menu-icon" type="button" data-open="mobile-menu"></button>
+			<span class="title-bar-title">MENU</span>
+		</div>
+</div>
+
+{{ "<!-- Partials that make up the site -->" | safeHTML }}
+{{ partial "nav.html" . }}
+		
+{{ partial "hero.html" . }}

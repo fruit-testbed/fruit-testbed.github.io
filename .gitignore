@@ -1,1 +1,4 @@
-public
+/public
+
+# VIM swap files
+.*.swp

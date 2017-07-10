@@ -7,25 +7,23 @@ enableRobotsTXT = true
 SectionPagesMenu = ["main", "social"]
 
 [params.meta]
-description = ""
+description = "The Federated RaspberryPi Micro-Infrastructure Testbed"
 keywords = "FRuIT, Raspberry-Pi, EPSRC, Testbed, Federated Clusters"
 
 [params.hero]
-herotitle = "FRuIT"
-herodiscription = "The Federated RaspberryPi Micro-Infrastructure Testbed"
+herotitle = "FR&micro;IT"
+herodescription = "The Federated RaspberryPi Micro-Infrastructure Testbed"
+heroremark1 = "10,000 RaspberryPi, the largest Pi cluster in the world!"
+heroremark2 = "Want to test your app on our testbed? Please <a href=mailto:webmaster@fruit-testbed.org>contact us</a>."
+heroremark3 = "Want to contribute? Please visit <a href=http://picycle.org>PiCycle</a> or <a href=/join>join</a> your cluster with ours."
 
 [params.main]
-contentOneTitle = "Easy to use"
-contentTwoTitle = "See Gary's Tutorial"
-
-contentOneBody = "A simple and easy to use hugo theme that anyone can expand and develop further. The design was ported to a Hugo Theme from the youtube video series posted by Gary Jennings. You can easily change the layout of this section in the main.html partial in the themes dir"
-
-contentTwoBody = "You can see Gary's tutorial [here:](https://www.youtube.com/watch?v=2QcpR6cHpnk) *Markdown* can be used in these two panels to quickly **style** content."
+contentOneTitle = ""
+contentTwoTitle = ""
+contentOneBody = ""
+contentTwoBody = ""
 
 [params.footer]
-#phone = ""
-#email = "webmaster@fruit-testbed.org"
-#address = ""
 
 [params.social]
 email = "webmaster@fruit-testbed.org"
@@ -39,8 +37,8 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Our Team"
-url = "/team"
+name = "The Team"
+url = "/theteam"
 weight = 2
 
 [[menu.main]]
@@ -62,13 +60,4 @@ weight = 5
 name = "PiCycle"
 url = "http://picycle.org"
 weight = 6
-
-
-[[menu.social]]
-name = "Twitter"
-url = "https://twitter.com/fruit_testbed"
-
-[[menu.social]]
-name = "Github"
-url = "https://github.com/fruit-testbed"
 

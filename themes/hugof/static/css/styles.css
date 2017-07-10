@@ -14,7 +14,6 @@ Global Styles
 	background-color: #222;
 }
 
-
 /*************
 Nav mobile
 ************** */
@@ -109,6 +108,11 @@ Main
 	padding: 40px 0px;
 }
 
+.main-content blockquote {
+  padding-top: 0;
+  margin-top: 0;
+}
+
 .content-one {
 	
 }
@@ -179,4 +183,66 @@ Media Query
 	.hero p {
 		width: 100%;
 	}
+}
+
+
+/*
+The Partners
+*/
+.partner img {
+  text-align: center;
+  max-width: 300px;
+  max-height: 100px;
+}
+.partner {
+  display: inline-block;
+  margin: 0px 75px 50px 0px;
+}
+/*.partner:nth-child(2) {
+  margin: 0px;
+  padding-left: 0px;
+  max-height: 150px;
+}
+.partner:nth-child(2) img {
+  height: 150px;
+}*/
+
+/*************
+The Team
+************** */
+.team-member {
+  display: table-row;
+}
+.team-member div {
+  display: table-cell;
+}
+
+.member-photo {
+  width: 200px;
+}
+.member-photo img {
+
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.member-profile {
+  color: #666;
+  vertical-align: top;
+}
+.member-profile h3, .member-profile p {
+  margin: 0px;
+  padding: 0px;
+}
+.member-profile p:nth-child(3) {
+  padding-top: 10px;
+  font-size: 1.2em;
+}
+.member-profile i {
+  font-size: 1.6em;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.member-org {
+  font-weight: bold;
 }

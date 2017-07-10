@@ -1,38 +1,12 @@
 {{ "<!-- BEGIN FOOTER -->" | safeHTML }}
 <footer>
 <div class="wrapper row small-up-1 medium-up-3">
+  
   <a href="mailto:{{ .Site.Params.social.email }}"><span><i class="fa fa-envelope" aria-hidden="true"></i></span></a>
-    <a href="{{ .Site.Params.social.twitter }}"><span><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
-    <a href="{{ .Site.Params.social.github }}"><span><i class="fa fa-github" aria-hidden="true"></i></span></a>
-    <p>Copyright 2017 FR&micro;IT-Testbed.org. All Right Reserved.</p>
+  <a href="{{ .Site.Params.social.twitter }}"><span><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
+  <a href="{{ .Site.Params.social.github }}"><span><i class="fa fa-github" aria-hidden="true"></i></span></a>
+  <p>Copyright 2017 FR&micro;IT-Testbed.org. All Right Reserved.</p>
 
-    <!--
-		<div class="column">
-			<h4>Contact Info</h4>
-			<hr>
-			<a><span>Phone </span>{{ .Site.Params.footer.phone }}</a>
-			<a><span>Email </span>{{ .Site.Params.footer.email }}</a>
-			<a><span>Address </span>{{ .Site.Params.footer.address }}</a>
-		</div>
-		
-		<div class="column">
-			<h4>Links</h4>
-			<hr>
-			{{ $currentNode := . }}
-			{{ range .Site.Menus.main }}
-			<a class="nav-item{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name}}</a>
-			{{end}}
-		</div>
-		
-		<div class="column">
-			<h4>Social</h4>
-			<hr>
-			{{ $currentNode := . }}
-			{{ range .Site.Menus.social }}
-			<a class="nav-item{{if or ($currentNode.IsMenuCurrent "social" .) ($currentNode.HasMenuCurrent "social" .) }} active{{end}}" href="{{.URL}}">{{ .Name}}</a>
-			{{end}}
-		</div>
-    -->
 </div>
 </footer> {{ "<!-- END FOOTER -->" | safeHTML }}
 	
