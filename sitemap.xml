@@ -3,6 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/main/</loc>
+  </url>
+  
+  <url>
+    <loc>/blog/</loc>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <priority>0</priority>
   </url>
@@ -13,8 +21,20 @@
   </url>
   
   <url>
+    <loc>/partners/</loc>
+  </url>
+  
+  <url>
+    <loc>/publications/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/theteam/</loc>
   </url>
   
 </urlset>

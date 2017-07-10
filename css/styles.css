@@ -14,7 +14,6 @@ Global Styles
 	background-color: #222;
 }
 
-
 /*************
 Nav mobile
 ************** */
@@ -107,8 +106,11 @@ Main
 ************** */
 .main-content {
 	padding: 40px 0px;
-  text-align: justify;
-  text-justify: inter-word;
+}
+
+.main-content blockquote {
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .content-one {
@@ -122,13 +124,6 @@ Main
 .uni-logo {
   padding: 15px;
   width: 170px;
-}
-
-.twitter-container {
-  float: right;
-  border: solid 1px #ccc;
-  width: 250px;
-  margin-left: 20px;
 }
 
 /*************
@@ -191,3 +186,63 @@ Media Query
 }
 
 
+/*
+The Partners
+*/
+.partner img {
+  text-align: center;
+  max-width: 300px;
+  max-height: 100px;
+}
+.partner {
+  display: inline-block;
+  margin: 0px 75px 50px 0px;
+}
+/*.partner:nth-child(2) {
+  margin: 0px;
+  padding-left: 0px;
+  max-height: 150px;
+}
+.partner:nth-child(2) img {
+  height: 150px;
+}*/
+
+/*************
+The Team
+************** */
+.team-member {
+  display: table-row;
+}
+.team-member div {
+  display: table-cell;
+}
+
+.member-photo {
+  width: 200px;
+}
+.member-photo img {
+
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.member-profile {
+  color: #666;
+  vertical-align: top;
+}
+.member-profile h3, .member-profile p {
+  margin: 0px;
+  padding: 0px;
+}
+.member-profile p:nth-child(3) {
+  padding-top: 10px;
+  font-size: 1.2em;
+}
+.member-profile i {
+  font-size: 1.6em;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.member-org {
+  font-weight: bold;
+}
