@@ -2,7 +2,10 @@
 Global Styles
 ************** */
 
-
+body {
+  text-align: justify;
+  text-justify: inter-word;
+}
 
 .wrapper {
 	width: 90%;
@@ -77,12 +80,11 @@ Nav desktop
 Hero
 ************** */
 .hero-panel {
-	/*background-color: #cccccc;*/
 	padding: 50px 0px;
 			/*top right bottom left*/
 	height: 300px;
-	/*background-image: url("../img/swirl_pattern.png");*/
   background-image: url("../img/picluster.jpeg");
+  text-shadow: 2px 4px 3px rgba(255,255,255,0.3);
 }
 
 .hero-panel a {
@@ -109,7 +111,7 @@ Main
 }
 
 .main-content blockquote {
-  padding-top: 0;
+  padding: 0px 30px 0px 30px;
   margin-top: 0;
 }
 
@@ -148,7 +150,7 @@ footer hr {
 footer a {
 	/*display: block;*/
 	color: rgba(255,255,255, 0.6);
-	font-size: 0.8em;
+	font-size: 1em;
 }
 
 footer a span {
@@ -166,6 +168,7 @@ footer a:hover {
 footer p {
 	color: rgba(255,255,255, 0.8);
 	font-size: 0.8em;
+  margin: 0px;
 }
 
 /*************
@@ -190,22 +193,14 @@ Media Query
 The Partners
 */
 .partner img {
-  text-align: center;
-  max-width: 300px;
+  max-width: 250px;
   max-height: 100px;
 }
 .partner {
+  text-align: center;
   display: inline-block;
   margin: 0px 75px 50px 0px;
 }
-/*.partner:nth-child(2) {
-  margin: 0px;
-  padding-left: 0px;
-  max-height: 150px;
-}
-.partner:nth-child(2) img {
-  height: 150px;
-}*/
 
 /*************
 The Team
@@ -221,7 +216,6 @@ The Team
   width: 200px;
 }
 .member-photo img {
-
   max-width: 150px;
   max-height: 150px;
 }
