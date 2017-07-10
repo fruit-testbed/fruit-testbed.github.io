@@ -1,6 +1,6 @@
 baseurl = "/"
 author = "FRuIT-Testbed.org"
-title = "FRuIT Testbed"
+title = "FR&micro;IT Testbed"
 languageCode = "en-us"
 theme = "hugof"
 enableRobotsTXT = true
@@ -57,7 +57,7 @@ url = "/blog"
 weight = 5
 
 [[menu.main]]
-name = "PiCycle"
+name = "PiCycle!"
 url = "http://picycle.org"
 weight = 6
 

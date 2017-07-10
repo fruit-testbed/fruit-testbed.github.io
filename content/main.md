@@ -1,6 +1,6 @@
 # The Project
 
-> "Massive aggregation of low-cost, low-power, commodity infrastructure can form an efficient and effective compute fabric for key distributed applications."
+> <i class="fa fa-quote-left"></i> Massive aggregation of low-cost, low-power, commodity infrastructure can form an efficient and effective compute fabric for key distributed applications. <i class="fa fa-quote-right"></i>
 
 The introduction of ubiquitous low-cost, low-power compute devices, e.g. in the Internet of Things (IoT) is fundamentally changing the computational landscape. Although we already see the benefits provided by special purpose IoT devices, the true capability is only realised when we can re-purpose large numbers of distributed devices as part of a much larger federated service.
 This is captured in the FR&micro;IT project hypothesis: **Massive aggregation of low-cost, low-power, commodity infrastructure can form an efficient and effective compute fabric for key distributed applications**.
@@ -10,7 +10,7 @@ The participating institutions and external collaborators will build a distribut
 This is in contrast to the existing centralised datacentre approach which occupies acres of land, cost millions of dollars; consumes megawatts of power and relies on a huge global network bandwidth. These trends are not sustainable and it is the emergence of low cost hardware such as the Raspberry Pi that will let us explore better solutions.
 **We envisage a testbed comprising tens of thousands of nodes, geographically distributed and capable of challenging remote off-grid scenarios**.
 
-In order to facilitate this **we introduce the concept of a micro-datacentre, a physically small, low power and low cost compute cluster that can be pushed to the edge of distributed networks, fundamentally changing the current model of the centralised datacentre**.
+In order to facilitate this, **we introduce the concept of a micro-datacentre, a physically small, low power and low cost compute cluster that can be pushed to the edge of distributed networks, fundamentally changing the current model of the centralised datacentre**.
 We have already built prototype micro-data centres at multiple sites, for example a mini-HPC cluster (Southampton University), a scale model cloud datacentre (Glasgow and Loughborough University ), and a decentralized sensing and communication platform for ultra-remote internet blackspots (Cambridge University).
 
 **This project is about connecting together our isolated micro-datacenters to produce a federated, geo-distributed testbed**.
