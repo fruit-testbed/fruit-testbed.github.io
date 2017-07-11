@@ -11,6 +11,7 @@ members:
     role: Investigator
     org: University of Southampton
     web: http://www.southampton.ac.uk/engineering/about/staff/sjc.page
+    email: S.J.Cox@soton.ac.uk
 
   - name: Dr. Herry
     photo: http://www.dcs.gla.ac.uk/~herry/assets/images/profile.png
@@ -24,6 +25,7 @@ members:
     role: Investigator
     org: University of Southampton
     web: http://www.southampton.ac.uk/engineering/about/staff/ferrang.page
+    email: S.J.JOHNSTON@soton.ac.uk
 
   - name: Dr. Robert Mullins
     photo: http://www.cl.cam.ac.uk/~rdm34/rob.gif
