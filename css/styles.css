@@ -58,6 +58,11 @@ Nav desktop
   margin: 10px;
   height: 30px;
 }
+.site-logo-mobile {
+  margin: 0px 10px 0px 10px;
+  height: 25px;
+  float: right;
+}
 
 .nav-desktop .menu-desktop {
 	background-color: transparent;
