@@ -22,9 +22,9 @@ Through this work, we aim to demonstrate how resource-constrained micro-data cen
 
 <h2>The Team</h2>
 
-The project is a collaboration of research groups in distributed system, networking, and HPC at <a href="http://www.cam.ac.uk">University of Cambridge</a>, <a href="http://www.gla.ac.uk">University of Glasgow</a>, <a href="http://www.lboro.ac.uk">University of Loughborough</a>, and <a href="http://www.southampton.ac.uk">University of Southampton</a>.
+The project is a collaboration of research groups in distributed system, networking, and HPC at <a href="http://www.cam.ac.uk">University of Cambridge</a>, <a href="http://www.gla.ac.uk">University of Glasgow</a>, <a href="http://www.lboro.ac.uk">Loughborough University</a>, and <a href="http://www.southampton.ac.uk">University of Southampton</a>.
 
-<img class="uni-logo" src="img/University_of_Cambridge_logo.svg" />
-<img class="uni-logo" src="img/Uni_glasgow.png" />
-<img class="uni-logo" src="img/Loughborough-Univeristy-Lboro-Logo.png" />
-<img class="uni-logo" src="img/University_of_Southampton_Logo.svg" />
+<a href="http://www.cam.ac.uk"><img class="uni-logo" src="img/University_of_Cambridge_logo.svg" /></a>
+<a href="http://www.gla.ac.uk"><img class="uni-logo" src="img/Uni_glasgow.png" /></a>
+<a href="http://www.lboro.ac.uk"><img class="uni-logo" src="img/Loughborough-Univeristy-Lboro-Logo.png" /></a>
+<a href="http://www.southampton.ac.uk"><img class="uni-logo" src="img/University_of_Southampton_Logo.svg" /></a>

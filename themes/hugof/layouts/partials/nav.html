@@ -2,9 +2,10 @@
 
 <nav class="top-bar nav-desktop ">
 	<div class="wrapper">
-		<!--div class="top-bar-left">
-			<a href="{{ .Site.BaseURL }}"><h3 class="site-logo">{{ .Site.Title }}</h3></a>
-		</div-->
+		<div class="top-bar-left">
+			<!--a href="{{ .Site.BaseURL }}"><h3 class="site-logo">{{ .Site.Title }}</h3></a-->
+      <a href="{{ .Site.BaseURL }}"><img class="site-logo" src="{{ .Site.BaseURL }}img/fruit-logo.png" /></a>
+		</div>
   	<div class="top-bar-left">
       <ul class="menu horizontal menu-desktop">
 			{{ $currentNode := . }}	

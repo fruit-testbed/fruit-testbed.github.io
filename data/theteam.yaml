@@ -56,13 +56,13 @@ members:
   - name: Dr. Posco Tso
     photo: https://i1.rgstatic.net/ii/profile.image/AS%3A277754336563214%401443233202402_l/Posco_Tso.png
     role: Investigator
-    org: University of Loughborough
+    org: Loughborough University
     web: http://www.lboro.ac.uk/departments/compsci/staff/academic-teaching/tsoposco/
     email: P.Tso@lboro.ac.uk
 
   - name: Dr. Eiko Yoneki
     photo: http://www.cnn.group.cam.ac.uk/directory/ey204@cam.ac.uk/image_normal
-    role: Co. Investigator
+    role: Investigator
     org: University of Cambridge
     web: http://www.cnn.group.cam.ac.uk/directory/ey204@cam.ac.uk
     email: eiko.yoneki@cl.cam.ac.uk

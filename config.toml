@@ -1,6 +1,8 @@
 baseurl = "/"
 author = "FRuIT-Testbed.org"
 title = "FR&micro;IT Testbed"
+logo = "fruit-logo.png"
+logobw = "fruit-logo-bw.png"
 languageCode = "en-us"
 theme = "hugof"
 enableRobotsTXT = true
@@ -12,7 +14,7 @@ keywords = "FRuIT, Raspberry-Pi, EPSRC, Testbed, Federated Clusters"
 
 [params.hero]
 herotitle = "FR&micro;IT"
-herodescription = "The Federated RaspberryPi Micro-Infrastructure Testbed"
+herodescription = "The Federated RaspberryPi &micro;-Infrastructure Testbed"
 heroremark1 = "10,000 RaspberryPi, the largest Pi cluster in the world!"
 heroremark2 = "Want to test your app on our testbed? Please <a href=mailto:webmaster@fruit-testbed.org>contact us</a>."
 heroremark3 = "Want to contribute? Please visit <a href=http://picycle.org>PiCycle</a> or <a href=/join>join</a> your cluster with ours."
@@ -57,7 +59,7 @@ url = "/blog"
 weight = 5
 
 [[menu.main]]
-name = "PiCycle!"
+name = "PiCycle"
 url = "http://picycle.org"
 weight = 6
 
