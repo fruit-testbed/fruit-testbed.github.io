@@ -210,6 +210,7 @@ The Partners
   max-height: 100px;
 }
 .partner {
+  width: 250px;
   text-align: center;
   display: inline-block;
   margin: 0px 75px 50px 0px;
