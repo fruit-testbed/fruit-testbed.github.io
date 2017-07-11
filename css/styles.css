@@ -75,15 +75,10 @@ Nav desktop
 
 .menu > li > a:hover {
 	background-color: rgba(255,255,255, 0.1);
-  color: #f33;
 }
 
 .menu > li:last-child > a {
   color: #0c6;
-}
-
-.menu > li:last-child > a:hover {
-  color: #f33;
 }
 
 /*************
