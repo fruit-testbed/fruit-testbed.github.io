@@ -124,6 +124,10 @@ Main
   margin-top: 0;
 }
 
+blockquote p {
+  text-align: center;
+}
+
 .content-one {
 	
 }
