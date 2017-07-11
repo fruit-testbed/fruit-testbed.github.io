@@ -126,6 +126,7 @@ Main
 
 blockquote p {
   text-align: center;
+  text-justify: auto;
 }
 
 .content-one {
