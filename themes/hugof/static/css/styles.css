@@ -2,11 +2,6 @@
 Global Styles
 ************** */
 
-body {
-  text-align: justify;
-  text-justify: inter-word;
-}
-
 .wrapper {
 	width: 90%;
 	max-width: 700px;
@@ -15,6 +10,10 @@ body {
 
 .off-canvas-wrapper {
 	background-color: #222;
+}
+
+span.nobr {
+  white-space: nowrap;
 }
 
 /*************

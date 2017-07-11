@@ -11,7 +11,7 @@ This is in contrast to the existing centralised datacentre approach which occupi
 **We envisage a testbed comprising tens of thousands of nodes, geographically distributed and capable of challenging remote off-grid scenarios**.
 
 In order to facilitate this, **we introduce the concept of a micro-datacentre, a physically small, low power and low cost compute cluster that can be pushed to the edge of distributed networks, fundamentally changing the current model of the centralised datacentre**.
-We have already built prototype micro-data centres at multiple sites, for example a mini-HPC cluster (Southampton University), a scale model cloud datacentre (Glasgow and Loughborough University ), and a decentralized sensing and communication platform for ultra-remote internet blackspots (Cambridge University).
+We have already built prototype micro-data centres at multiple sites, for example a mini-HPC cluster (Southampton University), a scale model cloud datacentre (Glasgow and Loughborough University), and a decentralized sensing and communication platform for ultra-remote internet blackspots (Cambridge University).
 
 **This project is about connecting together our isolated micro-datacenters to produce a federated, geo-distributed testbed**.
 We currently have hundreds of individual nodes and intend to grow this to tens of thousands across the UK academic network.
