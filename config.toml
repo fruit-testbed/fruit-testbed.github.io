@@ -14,7 +14,7 @@ keywords = "FRuIT, Raspberry-Pi, EPSRC, Testbed, Federated Clusters"
 
 [params.hero]
 herotitle = "FR&micro;IT"
-herodescription = "The Federated RaspberryPi <span class="nobr">&micro;-Infrastructure</span> Testbed"
+herodescription = "The Federated RaspberryPi <span class=nobr>&micro;-Infrastructure</span> Testbed"
 heroremark1 = "10,000 RaspberryPi, the largest Pi cluster in the world!"
 heroremark2 = "Want to test your app on our testbed? Please <a href=mailto:webmaster@fruit-testbed.org>contact us</a>."
 heroremark3 = "Want to contribute? Please visit <a href=http://picycle.org>PiCycle</a> or <a href=/join>join</a> your cluster with ours."
