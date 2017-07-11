@@ -2,3 +2,6 @@
 
 # VIM swap files
 .*.swp
+
+# MacOS hidden files
+.DS_Store

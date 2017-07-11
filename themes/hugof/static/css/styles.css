@@ -89,7 +89,7 @@ Hero
 			/*top right bottom left*/
 	height: 300px;
   background-image: url("../img/picluster.jpeg");
-  text-shadow: 2px 4px 3px rgba(255,255,255,0.3);
+  text-shadow: 2px 4px 3px rgba(255,255,255,0.5);
 }
 
 .hero-panel a {
@@ -103,8 +103,8 @@ Hero
   font-weight: 500;
 }
 .hero-panel h5 {
-  /*color: #a10;*/
-  color: #333;
+  color: #a10;
+  /*color: #333;*/
   font-weight: 500;
 }
 
@@ -222,7 +222,7 @@ The Team
 }
 
 .member-photo {
-  width: 200px;
+  width: 130px;
 }
 .member-photo img {
   max-width: 150px;
@@ -236,6 +236,9 @@ The Team
 .member-profile h3, .member-profile p {
   margin: 0px;
   padding: 0px;
+}
+.member-profile h3 {
+  margin: -10px 0px 0px 0px;
 }
 .member-profile p:nth-child(3) {
   padding-top: 10px;
