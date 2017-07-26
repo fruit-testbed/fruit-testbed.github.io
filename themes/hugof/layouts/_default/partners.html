@@ -17,7 +17,7 @@
                 <hr>
                 
 {{ range $.Site.Data.partners.members }}
-<div class="partner">
+<div class='partner {{replace (lower .name) " " "_"}}'>
 <a href="{{ .web }}"><img src="{{ .logo }}" title="{{ .name }}" /></a>
 </div>
 {{ end }}
