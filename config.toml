@@ -18,6 +18,8 @@ herodescription = "The Federated RaspberryPi <span class=nobr>&micro;-Infrastruc
 heroremark1 = "10,000 RaspberryPi, the largest Pi cluster in the world!"
 heroremark2 = "Want to test your app on our testbed? Please <a href=mailto:webmaster@fruit-testbed.org>contact us</a>."
 heroremark3 = "Want to contribute? Please visit <a href=http://picycle.org>PiCycle</a> or <a href=/join>join</a> your cluster with ours."
+heroremark4 = "Click <a href=\"mailto:herry.herry@glasgow.ac.uk?subject=Join Fruit Testbed&body=Hi, I would like to join Fruit Testbed as a beta tester.\">here</a> if you want to be our beta tester."
+heroremark5 = "Or click <a href=\"mailto:P.J.Basford@soton.ac.uk?subject=PiStack&body=Hi, I would like to learn more about PiStack.\">here</a> if you want more information about PiStack."
 
 [params.main]
 contentOneTitle = ""
