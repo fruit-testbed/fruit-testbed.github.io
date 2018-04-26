@@ -7,7 +7,7 @@
 	<body>
 
     {{ partial "header.html" . }}
-						
+
 					<!-- Add your own content here -->
 					<section class="main-content">
 						<div class="wrapper row">
@@ -15,28 +15,25 @@
 
 								<h1>{{ .Title }}</h1>
                 <hr>
-                
+                {{ .Content | markdownify }}
+
 							</div>
 						</div>
 					</section>
-							
+
 					{{ partial "footer.html" . }}
 				</div> {{ "<!-- End page content menu wrapper -->" | safeHTML }}
-		
+
 			</div> {{ "<!-- End of global off canvas inner wrapper -->" | safeHTML }}
 		</div> {{ "<!-- End of global off canvas wrapper -->" | safeHTML }}
-		
-		
+
+
 		{{ "<!-- JS includes -->" | safeHTML }}
-		
+
 		<script src="{{ .Site.BaseURL }}js/jquery.js"></script>
 		<script src="{{ .Site.BaseURL }}js/what-input.js"></script>
 		<script src="{{ .Site.BaseURL }}js/foundation.js"></script>
 		<script src="{{ .Site.BaseURL }}js/app.js"></script>
-		
+
 	</body>
 </html>
-  
-  
-  
-  

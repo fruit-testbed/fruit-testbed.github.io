@@ -36,11 +36,6 @@ github = "https://github.com/fruit-testbed"
 
 
 [[menu.main]]
-name = "The Project"
-url = "/"
-weight = 1
-
-[[menu.main]]
 name = "The Team"
 url = "/theteam"
 weight = 2
@@ -55,13 +50,17 @@ name = "Publications"
 url = "/publications"
 weight = 4
 
-#[[menu.main]]
-#name = "Blog"
-#url = "/blog"
-#weight = 5
+[[menu.main]]
+name = "FruitOS"
+url = "/fruitos"
+weight = 5
+
+[[menu.main]]
+name = "PiStack"
+url = "/pistack"
+weight = 6
 
 [[menu.main]]
 name = "PiCycle"
 url = "http://picycle.org"
-weight = 6
-
+weight = 7
