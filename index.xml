@@ -21,12 +21,13 @@
     </item>
     
     <item>
-      <title>Blog</title>
-      <link>/blog/</link>
+      <title>FruitOS</title>
+      <link>/fruitos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/blog/</guid>
-      <description></description>
+      <guid>/fruitos/</guid>
+      <description>FruitOS is a lean Linux OS distribution for Raspberry Pi, developed based on Alpine Linux. The root filesystem only contains necessary files to provide OS core functions, and push the application files to containers.
+FruitOS uses an immutable, A/B root partitions where an overlay ramdisk is mounted on top the SD card root partition to eliminate the risk of disk corruption whenever there is a sudden electric outage. This partition scheme allows over-the-air since the update is applied on an inactive root partition.</description>
     </item>
     
     <item>
@@ -36,6 +37,15 @@
       
       <guid>/partners/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Pi Stack</title>
+      <link>/pistack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pistack/</guid>
+      <description>The Pi Stack PCB is a custom developed PCB which can be used to create clusters, known as &amp;lsquo;stacks&amp;rsquo; of Raspberry Pi compatible single board computers. The Pi Stack was came out of the experiences of building Raspberry Pi clusters using other methods. The first cluster created used Lego as the physical mounting structure. This approach held the raspberry pis together conveniently, but did not help with cable management. The Pi Stack was designed to address this issue.</description>
     </item>
     
     <item>

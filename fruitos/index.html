@@ -1,7 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
 	<head>
-	<meta name="generator" content="Hugo 0.38.2" />
     <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +16,8 @@
 	</head>
 
 	<body>
-	        <div class="off-canvas-wrapper"> <!-- Definition of global off canvas wrapper -->
+
+    <div class="off-canvas-wrapper"> <!-- Definition of global off canvas wrapper -->
 		<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>	<!-- Definition of inner off canvas wrapper -->
 				
 		<!-- Menu -->
@@ -111,46 +111,53 @@
 
 
 
-					<!-- BEGIN MAIN CONTENT -->
-<section class="main-content">
-	<div class="wrapper row">
+					
+					<section class="main-content">
+						<div class="wrapper row">
+							<div class="small-12 medium-12 column content-one">
 
-    <h1 id="the-project">The Project</h1>
+								<h1>FruitOS</h1>
+                <hr>
+                <p>FruitOS is a lean Linux OS distribution for Raspberry Pi, developed based on
+<a href="https://alpinelinux.org">Alpine Linux</a>. The root filesystem only contains
+necessary files to provide OS core functions, and push the application files to
+containers.</p>
 
-<blockquote>
-<p><i class="fa fa-quote-left"></i> Massive aggregation of low-cost, low-power, commodity infrastructure can form an efficient and effective compute fabric for key distributed applications. <i class="fa fa-quote-right"></i></p>
-</blockquote>
+<p>FruitOS uses an immutable, A/B root partitions where an overlay ramdisk is
+mounted on top the SD card root partition to eliminate the risk of disk
+corruption whenever there is a sudden electric outage. This partition scheme
+allows over-the-air since the update is applied on an inactive root partition.
+FruitOS will able to recover from an update failure by booting to the backup
+root partition and cloning it onto the corrupted one.</p>
 
-<p>The introduction of ubiquitous low-cost, low-power compute devices, e.g. in the Internet of Things (IoT) is fundamentally changing the computational landscape. Although we already see the benefits provided by special purpose IoT devices, the true capability is only realised when we can re-purpose large numbers of distributed devices as part of a much larger federated service.
-This is captured in the FR&micro;IT project hypothesis: <strong>Massive aggregation of low-cost, low-power, commodity infrastructure can form an efficient and effective compute fabric for key distributed applications</strong>.</p>
+<p>Key features:
+<ul>
+<li> Immutable, A/B root partitions</il>
+<li> Over The Air (OTA) update</il>
+<li> Support <a href="https://docker.com">Docker</a> and
+     <a href="https://singularity-hub.org">Singularity</a> containers</il>
+<li> Remote configuration management</il>
+<li> Remote monitoring system</il>
+<li> Peer-to-Peer secure update (beta testing)</il>
+</ul></p>
 
-<p>The participating institutions and external collaborators will build a distributed UK-wide federated testbed of lightweight compute nodes capable of exploring the research issues that arise from such a dynamic infrastructure.
-This is in contrast to the existing centralised datacentre approach which occupies acres of land, cost millions of dollars; consumes megawatts of power and relies on a huge global network bandwidth. These trends are not sustainable and it is the emergence of low cost hardware such as the Raspberry Pi that will let us explore better solutions.
-<strong>We envisage a testbed comprising tens of thousands of nodes, geographically distributed and capable of challenging remote off-grid scenarios</strong>.</p>
+<p>FruitOS currently supports all kinds of Raspberry Pi boards ranging from Zero,
+Zero-W, 1, 2, and 3. The OS image file can be downloaded from
+<a href="https://fruit-testbed.org/os/edge/releases/armhf">https://fruit-testbed.org/os/edge/releases/armhf</a>.</p>
 
-<p>In order to facilitate this, <strong>we introduce the concept of a micro-datacentre, a physically small, low power and low cost compute cluster that can be pushed to the edge of distributed networks, fundamentally changing the current model of the centralised datacentre</strong>.
-We have already built prototype micro-data centres at multiple sites, for example a mini-HPC cluster (Southampton University), a scale model cloud datacentre (Glasgow and Loughborough University), and a decentralized sensing and communication platform for ultra-remote internet blackspots (Cambridge University).</p>
+<p>We plan to release the 64-bit version in June.</p>
 
-<p><strong>This project is about connecting together our isolated micro-datacenters to produce a federated, geo-distributed testbed</strong>.
-We currently have hundreds of individual nodes and intend to grow this to tens of thousands across the UK academic network.
-The key challenge in this expansion will be the management of the underlying infrastructure, particularly given complexities in the networking fabric.
-For example intermittent connectivity, firewalls, and low bandwidth connections. We will use lightweight management and orchestration software, combined with software-defined networking infrastructure to manage our federated testbed.
-Through this work, we aim to demonstrate how resource-constrained micro-data centres can be harnessed as generic platforms to run virtualised, network-wide services in a resource-efficient and still high-performing manner, and enable the <i>as-a-Service</i> paradigm over low-cost low-power federated infrastructures.</p>
+<p>More details:
+<ul>
+<li> <a href="https://eprints.soton.ac.uk/418445/">Next generation single board clusters demo paper</a></il>
+<li> <a href="https://github.com/fruit-testbed/fruitos">FruitOS Github Repo</a>
+</ul></p>
 
-<h2>The Team</h2>
 
-<p>The project is a collaboration of research groups in distributed system, networking, and HPC at <a href="http://www.cam.ac.uk">University of Cambridge</a>, <a href="http://www.gla.ac.uk">University of Glasgow</a>, <a href="http://www.lboro.ac.uk">Loughborough University</a>, and <a href="http://www.southampton.ac.uk">University of Southampton</a>.</p>
+							</div>
+						</div>
+					</section>
 
-<p><a href="http://www.cam.ac.uk"><img class="uni-logo" src="img/University_of_Cambridge_logo.svg" /></a>
-<a href="http://www.gla.ac.uk"><img class="uni-logo glasgow" src="img/Uni_glasgow.png" /></a>
-<a href="http://www.lboro.ac.uk"><img class="uni-logo" src="img/Loughborough-Univeristy-Lboro-Logo.png" /></a>
-<a href="http://www.southampton.ac.uk"><img class="uni-logo" src="img/University_of_Southampton_Logo.svg" /></a></p>
-
-    
-	</div>
-</section> <!-- END MAIN CONTENT -->
-
-							
 					<!-- BEGIN FOOTER -->
 <footer>
 <div class="wrapper row small-up-1 medium-up-3">
@@ -168,21 +175,17 @@ Through this work, we aim to demonstrate how resource-constrained micro-data cen
 	
 
 				</div> <!-- End page content menu wrapper -->
-		
+
 			</div> <!-- End of global off canvas inner wrapper -->
 		</div> <!-- End of global off canvas wrapper -->
-		
-		
+
+
 		<!-- JS includes -->
-		
+
 		<script src="/js/jquery.js"></script>
 		<script src="/js/what-input.js"></script>
 		<script src="/js/foundation.js"></script>
 		<script src="/js/app.js"></script>
-		
+
 	</body>
 </html>
-  
-  
-  
-  

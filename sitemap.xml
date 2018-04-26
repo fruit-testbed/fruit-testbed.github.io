@@ -7,10 +7,6 @@
   </url>
   
   <url>
-    <loc>/blog/</loc>
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
     <priority>0</priority>
   </url>
@@ -21,7 +17,15 @@
   </url>
   
   <url>
+    <loc>/fruitos/</loc>
+  </url>
+  
+  <url>
     <loc>/partners/</loc>
+  </url>
+  
+  <url>
+    <loc>/pistack/</loc>
   </url>
   
   <url>
