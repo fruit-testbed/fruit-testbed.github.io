@@ -13,6 +13,13 @@ members:
     web: http://www.southampton.ac.uk/engineering/about/staff/sjc.page
     email: S.J.Cox@soton.ac.uk
 
+  - name: Dr. Tony Garnock-Jones
+    photo: /img/tonyg.jpg
+    role: Research Associate
+    org: University of Glasgow
+    web: https://leastfixedpoint.com/
+    email: tonyg@leastfixedpoint.com
+
   - name: Dr. Herry
     photo: /img/herry.png
     role: Research Associate
