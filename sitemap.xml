@@ -21,11 +21,20 @@
   </url>
   
   <url>
+    <loc>/meeting/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/partners/</loc>
   </url>
   
   <url>
     <loc>/pistack/</loc>
+  </url>
+  
+  <url>
+    <loc>/meeting/201906/</loc>
   </url>
   
   <url>

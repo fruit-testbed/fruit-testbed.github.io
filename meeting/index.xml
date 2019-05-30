@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meetings on FR&amp;micro;IT Testbed</title>
+    <link>/meeting/</link>
+    <description>Recent content in Meetings on FR&amp;micro;IT Testbed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/meeting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Project Wrap-Up Meeting</title>
+      <link>/meeting/201906/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/meeting/201906/</guid>
+      <description>London, Thursday 27th June, 2019  iframe.map { display: block; width: 49%; float: left; } img[src*=&#34;#center&#34;] { display: block; float: right; width: 49%; } p.clear { clear: both; }   The meeting will be held at the London campus of Loughborough University, in room LDN&amp;nbsp;1.03.
+Agenda   10:00 - 10:20Arrival, Fruit and Coffee 10:20 - 10:30PI&amp;#39;s welcome and project conclusionJeremy 10:30 - 11:00 PiStack presentation &amp;amp; DemoPhil / Steven 11:00 - 11:30JISC Moonshot demoStefan / Jeremy 11:30 - 12:00Discussion and feedbackPosco 12:00 - 13:00Lunch 13:00 - 13:30 Fruit-Cli presentation &amp;amp; DemoTony 13:30 - 14:00Real-world applications demoEiko / Phil / Tony 14:00 - 14:30 Coffee break 14:30 - 15:30 Project publication review and guests feedbackPosco 15:30 - 16:00Coffee break and guests leaving 16:00 - 17:00Next proposal 17:00 - xx:xxDinner and drink?</description>
+    </item>
+    
+  </channel>
+</rss>
