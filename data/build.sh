@@ -1,3 +1,3 @@
 #!/bin/sh
 
-bibtex2html -nobibsource publications.bib
+bibtex2html -nobibsource -nodoc publications.bib
