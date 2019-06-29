@@ -9,13 +9,13 @@
     {{ partial "header.html" . }}
 
 					<!-- Add your own content here -->
-					<section class="main-content">
+					<section class="main-content bibtex-listing">
 						<div class="wrapper row">
 							<div class="small-12 medium-12 column content-one">
 
                 <h1>{{ .Title }}</h1>
 
-{{ readFile "static/data/publications.html" | safeHTML }}
+{{ readFile "static/data/publications_bib.html" | safeHTML }}
 
 							</div>
 						</div>
