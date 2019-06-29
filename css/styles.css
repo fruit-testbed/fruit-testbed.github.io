@@ -273,3 +273,12 @@ The Team
 .member-org {
   font-weight: bold;
 }
+
+
+/*********
+ BibTeX listing
+*********/
+
+.bibtex-listing pre {
+    white-space: pre-wrap;
+}
